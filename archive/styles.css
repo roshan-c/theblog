@@ -1,5 +1,13 @@
+@font-face {
+	font-family: 'm6x11';
+	src: url('fonts/m6x11.woff2') format('woff2'),
+	     url('fonts/m6x11.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-	font-family: 'JetBrains Mono', monospace;
+	font-family: 'm6x11', monospace;
 	margin: 0;
 	padding: 0;
 	background-color: #000000;
