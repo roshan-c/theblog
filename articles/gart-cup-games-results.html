@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>gart cup 2025 results | gart blog</title>
+  <link rel="stylesheet" href="../reset.css" />
+  <link rel="stylesheet" href="../index.css" />
+  <style>
+    .chart-container {
+      margin: var(--line-height) 0;
+      border: var(--border-thickness) solid var(--text-color);
+      padding: var(--line-height);
+    }
+    
+    .chart {
+      display: flex;
+      flex-direction: column;
+      gap: var(--line-height);
+    }
+    
+    .chart-row {
+      display: flex;
+      align-items: center;
+      gap: 1ch;
+    }
+    
+    .chart-label {
+      width: 10ch;
+      text-align: right;
+      font-weight: var(--font-weight-medium);
+    }
+    
+    .chart-bar {
+      height: var(--line-height);
+      background-color: var(--text-color);
+    }
+    
+    .chart-scale {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: var(--line-height);
+      border-bottom: var(--border-thickness) solid var(--text-color);
+      padding-bottom: calc(var(--line-height) / 4);
+    }
+  </style>
+</head>
+<body>
+  <table class="header">
+    <tr>
+      <td colspan="2" rowspan="2" class="width-auto">
+        <h1 class="title">gart blog</h1>
+        <span class="subtitle">who gave gart a website</span>
+      </td>
+    </tr>
+    <tr>
+      <th>updated</th>
+      <td class="width-min"><time style="white-space: pre;">2025-01-31</time></td>
+    </tr>
+    <tr>
+      <th class="width-min">author</th>
+      <td class="width-auto"><cite>gart</cite></td>
+    </tr>
+    <tr>
+      <th>back to</th>
+      <td class="width-min"><a href="../index.html">main page..</a></td>
+    </tr>
+  </table>
+
+  <article>
+    <h1>🏆 gart cup 2025 results</h1>
+    
+    <div class="chart-container">
+      <div class="chart-scale">
+        <span>0</span>
+        <span>200</span>
+        <span>400</span>
+        <span>600</span>
+        <span>800</span>
+        <span>1000</span>
+      </div>
+      
+      <div class="chart">
+        <div class="chart-row">
+          <span class="chart-label">Player 1</span>
+          <div class="chart-bar" style="width: 96%"></div>
+          <span>960</span>
+        </div>
+        <div class="chart-row">
+          <span class="chart-label">Player 2</span>
+          <div class="chart-bar" style="width: 22%"></div>
+          <span>220</span>
+        </div>
+        <div class="chart-row">
+          <span class="chart-label">Player 3</span>
+          <div class="chart-bar" style="width: 21%"></div>
+          <span>210</span>
+        </div>
+        <div class="chart-row">
+          <span class="chart-label">Player 4</span>
+          <div class="chart-bar" style="width: 19%"></div>
+          <span>190</span>
+        </div>
+        <div class="chart-row">
+          <span class="chart-label">Player 5</span>
+          <div class="chart-bar" style="width: 12.5%"></div>
+          <span>125</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</body>
+</html>
