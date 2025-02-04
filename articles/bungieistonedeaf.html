@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../reset.css" />
   <link rel="stylesheet" href="../index.css" />
   <link rel='icon' type='favicon/icon.ico' href='../images/favicon/icon.ico'>
+  <script src='../imageConfig.js'></script>
 </head>
 <body>
   <table class="header">
@@ -32,9 +33,12 @@
     <h2>bungie's future for destiny 2 is tonedeaf and unsustainable</h2>
     <p class="date">september 28th 2024</p>
     <div style="text-align: center;">
-    <img src="../images/destiny/pantheonriven.png" alt="my own screenshot taken from the riven encounter within the pantheon challenge" style="max-width:100%;height:auto;">
+    <img src="../" id='riven-img' alt="my own screenshot taken from the riven encounter within the pantheon challenge" style="max-width:100%;height:auto;">
     <figcaption style="text-align: center; font-style: italic;">this is how my screen looked during the riven encounter within the pantheon challenge</figcaption>
     </div>
+    <script>
+      document.getElementById('riven-img').src = getImagePath('pantheon-riven');
+    </script>
     <p>a couple of days ago, bungie release a developer insight article on the future
     of raids and dungeons in destiny 2. in this article, they detail their move away 
     from two raids and two dungeons a year, to one brand new raid with the first 
