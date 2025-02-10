@@ -10,7 +10,8 @@ const imageConfig = {
     'overdeliver': 'images/tmz/overdeliver (720).png',
     
     // Tierlist images 
-    'tierlist-full': 'images/tierlist/tierlist2x.png'
+    'tierlist-full': 'images/tierlist/tierlist2x.png',
+    'tierlist-reason': 'images/tierlist/thereason.png'
 };
 
 function getImagePath(nickname) {

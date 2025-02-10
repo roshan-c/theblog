@@ -33,11 +33,12 @@
     <h2>bungie's future for destiny 2 is tonedeaf and unsustainable</h2>
     <p class="date">september 28th 2024</p>
     <div style="text-align: center;">
-    <img src="../" id='riven-img' alt="my own screenshot taken from the riven encounter within the pantheon challenge" style="max-width:100%;height:auto;">
+    <img src="" id="riven-img" alt="my own screenshot taken from the riven encounter within the pantheon challenge" style="max-width:100%;height:auto;">
     <figcaption style="text-align: center; font-style: italic;">this is how my screen looked during the riven encounter within the pantheon challenge</figcaption>
     </div>
     <script>
-      document.getElementById('riven-img').src = getImagePath('pantheon-riven');
+      const path = getImagePath('pantheon-riven');
+      document.getElementById('riven-img').src = '../' + path;
     </script>
     <p>a couple of days ago, bungie release a developer insight article on the future
     of raids and dungeons in destiny 2. in this article, they detail their move away 
@@ -55,9 +56,12 @@
     reason it would seem. there is no evidence that this makes bungie any more money, and it certainly
     doesn't suggest that player numbers are going to increase because of this.</p>
     <div style="text-align: center;">
-    <img src="../images/destiny/afkwarning.png" alt="my own screenshot taken after receiving a ban warning " style="max-width:100%;height:auto;">
+    <img src="" id="afk-warning-img" alt="my own screenshot taken after receiving a ban warning " style="max-width:100%;height:auto;">
     <figcaption style="text-align: center; font-style: italic;">my ban warning after afk farming exotic class items</figcaption>
-    </div> 
+    </div>
+    <script>
+      document.getElementById('afk-warning-img').src = '../' + getImagePath('afk-warning');
+    </script>
     <p>it all leaves a poor taste in my mouth as it adds to the ever growing pile of 
     evidence that bungie caters more heavily towards their casual players, rather than
     meeting the needs of every kind of player. it started with the removal of hard mode
@@ -70,3 +74,5 @@
     it is instead a loot problem. there is no reason to run any activity as there is no loot worth grinding, because there
     are no activities where the loot that is worth grinding is required. this is the problem with destiny.</p>
 </article>
+</body>
+</html>

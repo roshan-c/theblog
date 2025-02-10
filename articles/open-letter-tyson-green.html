@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../reset.css" />
   <link rel="stylesheet" href="../index.css" />
   <link rel='icon' type='favicon/icon.ico' href='../images/favicon/icon.ico'>
+  <script src='../imageConfig.js'></script>
 </head>
 <body>
   <table class="header">
@@ -37,9 +38,12 @@
       and yet, in this time, you have done nothing but dissapoint. every single turn you make is the wrong one; would it be
       so bad to listen to the sav-nav once in a while?</p>
     <div style="text-align: center;">
-        <img src="../images/destiny/toppagereddit.png" alt="top page post in the subreddit" style="max-width:100%;height:auto;">
+        <img id="reddit-img" src="" alt="top page post in the subreddit" style="max-width:100%;height:auto;">
         <figcaption style="text-align: center; font-style: italic;">the top-page post in the destiny subreddit yesterday</figcaption>
     </div>
+    <script>
+        document.getElementById('reddit-img').src = '../' + getImagePath('reddit-top');
+    </script>
     <p>this year in Destiny should have been a victory lap, a way to very easily win back everyone that had left, and yet somehow
         you have managed to make it worse. player counts are at their lowest, and player morale decreases by the second. this game
         is not that difficult to direct. even i could do it! in fact, here is every step i would have taken this year to progress the 
@@ -53,9 +57,12 @@
         so why not lead up to the next big release in Frontiers? instead of this cookie cutter bullshit we have now.</p>
 
     <div style="text-align: center;">
-        <img src="../images/destiny/tonics.avif" alt="screenshot taken from of the tonics screen" style="max-width:100%;height:auto;">
+        <img id="tonics-img" src="" alt="screenshot taken from of the tonics screen" style="max-width:100%;height:auto;">
         <figcaption style="text-align: center; font-style: italic;">screenshot taken of the tonics screen</figcaption>
     </div>
+    <script>
+        document.getElementById('tonics-img').src = '../' + getImagePath('tonics-screen');
+    </script>
 
     <p> next, i would address the loot grind. weapon crafting is not the evil you perceive it to be Tyson. it is a way to
         keep players engaged, and to keep them playing. the current model of 'play the game for 12 weeks, then leave for 12 weeks'
@@ -91,4 +98,4 @@
     <p> from, gart</p>
   </article>
 </body>
-</html> 
+</html>
