@@ -455,3 +455,28 @@ label input {
 .debug-toggle-label {
   text-align: right;
 }
+
+/* Styles for interview format */
+.interview-container {
+    margin-top: var(--line-height);
+}
+
+.interview-question, .interview-answer {
+    margin-bottom: var(--line-height);
+}
+
+.interview-question strong,
+.interview-answer strong { /* For "Interviewer:" and "Interviewee Name:" labels */
+    display: block;
+    margin-bottom: calc(var(--line-height) / 2);
+    font-weight: var(--font-weight-bold); /* Ensure labels are bold */
+}
+
+/* Additional styling to differentiate Q and A a bit more, similar to galtinterview.html */
+.interview-question {
+    /* Optional: Add specific styling for questions if needed */
+}
+
+.interview-answer {
+    padding-left: 2ch; /* Indent answers slightly, similar to a blockquote or offset text */
+}
