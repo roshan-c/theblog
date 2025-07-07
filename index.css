@@ -62,11 +62,11 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  :root {
-    font-size: 14px;
-  }
   body {
-    padding: var(--line-height) 1ch;
+    padding: 1rem;
+  }
+  :root {
+    font-size: 18px;
   }
 }
 
@@ -528,6 +528,33 @@ label input {
     color: var(--accent-color);
 }
 
+@media (max-width: 768px) {
+    .main-header .header-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .main-header .blog-info {
+        text-align: center;
+    }
+
+    .main-header .social-links a {
+        margin: 0 0.75rem;
+    }
+    .featured-article {
+        flex-direction: column;
+    }
+
+    .featured-article .card-image-wrapper {
+        flex-basis: 200px;
+    }
+
+    .featured-article .card-content {
+        border-left: none;
+        border-top: 4px solid var(--accent-color);
+    }
+}
+
 .featured-article {
     background-color: var(--background-color-alt);
     border-radius: 4px;
@@ -572,24 +599,9 @@ label input {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
-    .featured-article {
-        flex-direction: column;
-    }
-
-    .featured-article .card-image-wrapper {
-        flex-basis: 200px;
-    }
-
-    .featured-article .card-content {
-        border-left: none;
-        border-top: 4px solid var(--accent-color);
-    }
-}
-
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
   padding: 2rem 0;
   margin: 0;
