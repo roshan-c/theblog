@@ -1,0 +1,38 @@
+# robots.txt for https://gartblog.xyz
+# RFC 9309
+
+User-agent: *
+Allow: /
+Disallow: /functions/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# AI crawler policy
+User-agent: GPTBot
+Allow: /
+Disallow: /articles/articletemplate.html
+Disallow: /articles/new-article.html
+Disallow: /articles/bbc_interview_example.html
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /articles/articletemplate.html
+Disallow: /articles/new-article.html
+Disallow: /articles/bbc_interview_example.html
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /articles/articletemplate.html
+Disallow: /articles/new-article.html
+Disallow: /articles/bbc_interview_example.html
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /articles/articletemplate.html
+Disallow: /articles/new-article.html
+Disallow: /articles/bbc_interview_example.html
+
+# Content Signals preferences
+Content-Signal: ai-train=no, search=yes, ai-input=no
+
+Sitemap: https://gartblog.xyz/sitemap.xml

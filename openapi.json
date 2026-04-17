@@ -1,0 +1,25 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "gart blog discovery API",
+    "version": "1.0.0",
+    "description": "Minimal discovery and status endpoints for gart blog"
+  },
+  "servers": [
+    {
+      "url": "https://gartblog.xyz"
+    }
+  ],
+  "paths": {
+    "/healthz": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

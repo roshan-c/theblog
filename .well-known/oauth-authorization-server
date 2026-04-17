@@ -1,0 +1,10 @@
+{
+  "issuer": "https://gartblog.xyz",
+  "authorization_endpoint": "https://gartblog.xyz/oauth/authorize",
+  "token_endpoint": "https://gartblog.xyz/oauth/token",
+  "jwks_uri": "https://gartblog.xyz/.well-known/jwks.json",
+  "grant_types_supported": ["authorization_code", "client_credentials", "refresh_token"],
+  "response_types_supported": ["code"],
+  "token_endpoint_auth_methods_supported": ["client_secret_basic", "client_secret_post"],
+  "scopes_supported": ["api.read"]
+}

@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://gartblog.xyz/",
+      "service-desc": [
+        {
+          "href": "https://gartblog.xyz/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://gartblog.xyz/docs/api/",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://gartblog.xyz/healthz",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

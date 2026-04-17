@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agentskills.io/schemas/agent-skills-index.v0.2.0.json",
+  "skills": [
+    {
+      "name": "robots-txt",
+      "type": "documentation",
+      "description": "Crawler and AI bot policies for gartblog.xyz",
+      "url": "https://gartblog.xyz/.well-known/agent-skills/robots-txt.md",
+      "sha256": "8b96dde3b7e7f4a49de8b7c8bbc1c4f0ceb8c60fbea644c4b038e387f6a2ccd8"
+    },
+    {
+      "name": "sitemap",
+      "type": "documentation",
+      "description": "Canonical sitemap for homepage and article URLs",
+      "url": "https://gartblog.xyz/.well-known/agent-skills/sitemap.md",
+      "sha256": "532d8748cfd2d1141c33701f9632a233f191505351c3c19a71d7398107aac0f6"
+    },
+    {
+      "name": "api-discovery",
+      "type": "documentation",
+      "description": "API catalog, OAuth metadata, and MCP server card endpoints",
+      "url": "https://gartblog.xyz/.well-known/agent-skills/api-discovery.md",
+      "sha256": "cee81b5f53e47b3bf37649aba39dd4689896728e11fadcf0600fba677599b727"
+    }
+  ]
+}

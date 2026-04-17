@@ -1,0 +1,7 @@
+{
+  "resource": "https://gartblog.xyz/",
+  "authorization_servers": [
+    "https://gartblog.xyz"
+  ],
+  "scopes_supported": ["api.read"]
+}
